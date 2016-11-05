@@ -111,7 +111,7 @@ class TestsExpander(Expander):
                 segments = cls._normalize_test_segments(group_name)
                 test_stats[segments] = sum(test_durations[t] for t in group_tests)
 
-        # the build report can contain different test suites so this isnt the
+        # the build report can contain different test suites so this isn't the
         # most accurate
         if total_duration > 0:
             avg_test_time = int(total_duration / total_count)

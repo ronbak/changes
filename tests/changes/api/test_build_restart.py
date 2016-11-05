@@ -26,7 +26,7 @@ class BuildRestartTest(APITestCase):
 
         path = '/api/0/builds/{0}/restart/'.format(build.id.hex)
 
-        # build isnt finished
+        # build isn't finished
         resp = self.client.post(path, follow_redirects=True)
         assert resp.status_code == 400
 
