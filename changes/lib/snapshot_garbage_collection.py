@@ -29,7 +29,7 @@ builds running still that are using the old images, which would make
 deletion potentially unsafe without complex locking on the client side.
 
 This api abstracts away cached snapshot images so that no other parts of
-changes have to know about their existance as a table separate from
+changes have to know about their existence as a table separate from
 snapshot imagese.
 """
 from changes.config import db
