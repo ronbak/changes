@@ -33,7 +33,7 @@ class BuildCommentIndexAPIView(APIView):
 
         args = self.parser.parse_args()
 
-        # TODO(dcramer): ensure this comment wasnt just created
+        # TODO(dcramer): ensure this comment wasn't just created
         comment = Comment(
             build=build,
             user=user,
