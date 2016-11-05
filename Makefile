@@ -1,7 +1,7 @@
 help:
 	@echo "Please use \`$(MAKE) <target>' where <target> is one of the following:"
 	@echo "  setup-git                  optional git config & pre-commit hooks"
-	@echo "  develop                    perform inital development setup"
+	@echo "  develop                    perform initial development setup"
 	@echo "    install-requirements       install basic deps (npm, bower, python)"
 	@echo "    install-test-requirements  install runtime + testing dependencies"
 	@echo "  upgrade                    perform data migrations"
